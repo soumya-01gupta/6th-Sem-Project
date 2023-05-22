@@ -40,3 +40,15 @@ for(i=0;i<acc.length;i++){
         this.classList.toggle('active');
     });
 };
+
+function sendEmail() {
+    window.location.href = "mailto:recipient@example.com?subject=Hello%20from%20my%20website&body=I%20would%20like%20to%20get%20in%20touch%20with%20you.";
+    alert("Email sent!");
+
+    return false;
+}
+
+function subscribe(){
+    alert("Thanks for Subscribing");
+    return false;
+}
